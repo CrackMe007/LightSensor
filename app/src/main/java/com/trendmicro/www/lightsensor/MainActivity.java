@@ -39,8 +39,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onSensorChanged(SensorEvent event) {
             float value = event.values[0];
-            lightLevel.setText("Current light level is "+value+" lx"+ "Fist Revise"+"Second Revise in AS"+ "Third Change In GitHub in 
-            MySecondBranch");
+            lightLevel.setText("Current light level is "+value+" lx"+ "Fist Revise"+"Second Revise in AS"+ "Third Change In GitHub in MySecondBranch");
         }
 
         @Override
